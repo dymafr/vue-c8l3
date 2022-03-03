@@ -1,7 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TheHeader from './components/Header.vue';
+import TheFooter from './components/Footer.vue';
+import Shop from './components/Shop.vue';
+import Cart from './components/Cart.vue';
+</script>
 
 <template>
-  <h1>Bonjour le monde !</h1>
+  <div>
+    <TheHeader />
+    <Shop />
+    <Cart />
+    <TheFooter />
+  </div>
 </template>
 
 <style lang="scss">
