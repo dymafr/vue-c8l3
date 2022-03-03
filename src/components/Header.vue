@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <header>
     <h1>Header</h1>
-  </div>
+  </header>
 </template>
 
 <style lang="scss" scoped></style>
