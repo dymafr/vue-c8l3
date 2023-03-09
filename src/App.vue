@@ -15,8 +15,8 @@ import Cart from './components/Cart.vue';
 </template>
 
 <style lang="scss">
-@import './assets/base.scss';
-@import './assets/debug.scss';
+@use './assets/base.scss' as *;
+@use './assets/debug.scss' as *;
 
 .app-container {
   min-height: 100vh;
